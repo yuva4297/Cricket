@@ -24,6 +24,10 @@ export class Batsman extends Player
     {
         this.numberOfRunsScored += runs;
     }
+    addBallsFaced()
+    {
+        this.numberOfBallsFaced += 1;
+    }
     get totalNumberOfRunsScored()
     {
         return this.numberOfRunsScored;
