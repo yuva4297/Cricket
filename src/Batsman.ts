@@ -7,12 +7,12 @@ export class Batsman extends Player
     numberOfRunsScored: number;
     numberOfBallsFaced: number;
     isOut: boolean;
-    dismissalType: string | null;
-    fielder: Fielder | null;
-    bowler: Bowler | null;
+    dismissalType?: string | null;
+    fielder?: Fielder | null;
+    bowler?: Bowler | null;
     constructor(playerName: string)
     {
-        super(name);
+        super(playerName);
         this.bowler = null;
         this.dismissalType = null;
         this.fielder = null;
@@ -27,6 +27,16 @@ export class Batsman extends Player
     addBallsFaced()
     {
         this.numberOfBallsFaced += 1;
+    }
+    addOutStatus(status: boolean)
+    {
+        this.isOut = status;
+    }
+    addDismissalTypeInfo(dismissalType: string, bowler: Bowler, fielder: Fielder)
+    {
+        this.dismissalType = dismissalType;
+        this.bowler = bowler;
+        this.fielder = fielder;
     }
     get totalNumberOfRunsScored()
     {

@@ -1,5 +1,5 @@
 import { Scorer } from "./Scorer";
-import { datatype } from "./datatype";
+import { Datatype } from "./datatype";
 import { Team } from "./Team";
 
 const scorer = new Scorer();
@@ -8,7 +8,7 @@ const scorer = new Scorer();
 
 let data = [  
     {
-        "runScored": 0,
+        "runScored":0,
         "isOut": true,
         "dismissalType": 'Run Out',
         "dismissalInfo": {
@@ -29,8 +29,13 @@ let data = [
         "isOut": false,
         "batsmanName": 'Kohli',
         "bowlerName": 'Anderson'
+    },
+    {
+        "runsScored": 4,
+        "isOut": false,
+        "batsmanName": 'Kohli',
+        "bowlerName": 'Anderson'
     }
- 
     
     
     ];
@@ -55,7 +60,8 @@ let data = [
     scorer.addTeams(team1, team2);
 
     
-    data.forEach(ball => {
+    data.forEach((ball) => {
+        console.log(ball.runScored+"main")
         scorer.calculateScore(ball);
     });
 

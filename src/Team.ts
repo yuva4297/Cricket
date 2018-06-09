@@ -1,5 +1,6 @@
 import { Batsman } from "./BatsMan";
 import { Bowler } from "./Bowler";
+import { Datatype } from "./datatype";
 
 export class Team
 {
@@ -14,13 +15,15 @@ export class Team
         this.batsManList = [];
         this.bowlersList = [];
     }
-    addRunsScored(runs)
+    addRunsScored(ball: Datatype)
     {
-        this.numberOfRunsScored += runs;
+        console.log(ball.runsScored);
+            this.numberOfRunsScored += ball.runsScored;   
+        
     }
-    addWickets(wicket)
+    addWickets()
     {
-        this.numberOfWickets += wicket;
+        this.numberOfWickets += 1;
     }
     addBatsMan(batsman:Batsman)
     {

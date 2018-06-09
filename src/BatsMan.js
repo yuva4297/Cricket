@@ -26,6 +26,17 @@ var Batsman = /** @class */ (function (_super) {
     Batsman.prototype.addRuns = function (runs) {
         this.numberOfRunsScored += runs;
     };
+    Batsman.prototype.addBallsFaced = function () {
+        this.numberOfBallsFaced += 1;
+    };
+    Batsman.prototype.addOutStatus = function (status) {
+        this.isOut = status;
+    };
+    Batsman.prototype.addDismissalTypeInfo = function (dismissalType, bowler, fielder) {
+        this.dismissalType = dismissalType;
+        this.bowler = bowler;
+        this.fielder = fielder;
+    };
     Object.defineProperty(Batsman.prototype, "totalNumberOfRunsScored", {
         get: function () {
             return this.numberOfRunsScored;

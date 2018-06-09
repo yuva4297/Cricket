@@ -24,8 +24,8 @@ var Bowler = /** @class */ (function (_super) {
     Bowler.prototype.addRunsGiven = function (runs) {
         this.numberOfRunsGiven += runs;
     };
-    Bowler.prototype.addBallsBowled = function (balls) {
-        this.numberOfBallsBowled += balls;
+    Bowler.prototype.addBallsBowled = function () {
+        this.numberOfBallsBowled += 1;
     };
     Bowler.prototype.addWickets = function (wicket) {
         this.numberOfwickets += wicket;

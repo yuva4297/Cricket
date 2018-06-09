@@ -1,10 +1,10 @@
-export interface datatype  {
+export interface Datatype  {
     runsScored: number,
     isOut: boolean,
     dismissalType?: string,
     dismissalInfo?: {
-        fielderName: String,
-        hasBatsmanCrossed: boolean,
+        fielderName?: string,
+        hasBatsmanCrossed?: boolean,
     },
     isExtra?: true,
         extraType?: String

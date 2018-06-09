@@ -18,9 +18,9 @@ export class Bowler extends Player
     {
         this.numberOfRunsGiven += runs;
     }
-    addBallsBowled(balls:number)
+    addBallsBowled()
     {
-        this.numberOfBallsBowled += balls;
+        this.numberOfBallsBowled += 1;
     }
     addWickets(wicket: number)
     {

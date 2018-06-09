@@ -1,7 +1,8 @@
 import { Team } from "./Team";
 import { Batsman } from "./BatsMan";
 import { Bowler } from "./Bowler";
-import { datatype } from "./datatype";
+import { Datatype } from "./datatype";
+import { Fielder } from "./Fielder";
 
 export class Scorer
 {
@@ -49,9 +50,14 @@ export class Scorer
         this.currentBowlingTeam = bowlingTeam;
     }
     
-    calculateScore(ball:datatype )
+    calculateScore(ball:Datatype )
     {
         this.check += 1;
+        if(ball.isExtra)
+        {
+            this.check-=1;
+        }
+        
         if(this.check%6==1)
         {
             const bowler = this.createBowler(ball.bowlerName);
@@ -63,46 +69,49 @@ export class Scorer
             this.currentStricker = this.createBatsMan(ball.batsmanName);
             this.addBatsMan(this.currentStricker);
         }
-
+        this.updateTeamDetail(ball);        
         this.updateBatsmanDetail(ball);
         this.updateBowlerDetail(ball);
-        this.updateTeamDetail(ball);
-        // if(ball.isOut)
-        // {
-        //     if(ball.dismissalType === 'Run Out')
-        //     {
-        //         this.updateBatsmanDetail(ball);
-        //         this.update
-                
-        //         // for(var i=0;i<this.currentBattingTeam.batsManList.length;i++)
-        //         // {
-        //         //     if(this.currentBattingTeam.batsManList[i].playerName === ball.batsmanName)
-        //         //     {
-        //         //         this.currentBattingTeam.batsManList[i].isOut = true;
-        //         //         this.currentBattingTeam.batsManList[i].addRuns(ball.runsScored);
-        //         //         this.currentBattingTeam.batsManList[i].dismissalType = ball.dismissalType;
-        //         //         this.currentBattingTeam.batsManList[i].numberOfBallsFaced += 1;
-        //         //         break;
-        //         //     }
-        //         // }
-        //         this.currentBowler.addWickets(1);
-        //     }
-        // }
+            
+    }
+
+    updateBatsmanDetail(ball: Datatype)
+    {
         
+        if(ball.isOut)
+        {
+            const fielder=new Fielder(ball.dismissalInfo.fielderName);
+            this.currentStricker.addDismissalTypeInfo(ball.dismissalType, this.currentBowler, fielder);
+            this.currentStricker.addOutStatus(ball.isOut);
+        }
+        else if(ball.isExtra && (ball.extraType === 'LBW' || ball.extraType === 'Byes'))
+        {
+            this.currentStricker.addBallsFaced();
+        }
+        else
+        {
+            this.currentStricker.addRuns(ball.runsScored);
+            this.currentStricker.addBallsFaced();
+        }
+    }
+    updateBowlerDetail(ball: Datatype)
+    {
+        if(ball.isOut && ball.dismissalType!='Run Out')
+        {
+            this.currentBowler.addWickets(1);
+        }
+        if(!ball.isExtra)
+        {
+            this.currentBowler.addRunsGiven(ball.runsScored);
+        }
+        this.currentBowler.addBallsBowled();
+    }
+    updateTeamDetail(ball: Datatype)
+    {
+        //console.log(ball);
         
-    }
-
-    updateBatsmanDetail(ball: datatype)
-    {
-
-    }
-    updateBowlerDetail(ball: datatype)
-    {
-
-    }
-    updateTeamDetail(ball: datatype)
-    {
-
+        this.currentBattingTeam.addRunsScored(ball);
+        this.currentBattingTeam.addWickets();
     }
     checkBatsmanAvailablityInList(name: string)
     {
@@ -119,6 +128,13 @@ export class Scorer
     
     printScore()
     {
-
+        for(var i=0;i<this.currentBattingTeam.batsManList.length;i++)
+        {
+            // console.log(this.currentBattingTeam.batsManList[i].playerName);
+            // console.log(this.currentBattingTeam.batsManList[i].numberOfRunsScored);
+            // console.log(this.currentBattingTeam.batsManList[0].fielder.playerName);
+        }
+        // console.log(this.currentBattingTeam.totalScore);
+        // console.log(this.currentBattingTeam.numberOfRunsScored);
     }
 }
