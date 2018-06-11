@@ -53,10 +53,7 @@ export class Scorer
     calculateScore(ball:Datatype )
     {
         this.check += 1;
-        if(ball.isExtra)
-        {
-            this.check-=1;
-        }
+        
         
         if(this.check%6==1)
         {
@@ -83,6 +80,7 @@ export class Scorer
             const fielder=new Fielder(ball.dismissalInfo.fielderName);
             this.currentStricker.addDismissalTypeInfo(ball.dismissalType, this.currentBowler, fielder);
             this.currentStricker.addOutStatus(ball.isOut);
+            this.currentStricker.addBallsFaced();
         }
         else if(ball.isExtra && (ball.extraType === 'LBW' || ball.extraType === 'Byes'))
         {
@@ -100,7 +98,7 @@ export class Scorer
         {
             this.currentBowler.addWickets(1);
         }
-        if(!ball.isExtra)
+        if(!ball.isExtra || ball.extraType=='NoBall' || ball.extraType == 'Wide')
         {
             this.currentBowler.addRunsGiven(ball.runsScored);
         }
@@ -108,10 +106,13 @@ export class Scorer
     }
     updateTeamDetail(ball: Datatype)
     {
-        //console.log(ball);
+        
         
         this.currentBattingTeam.addRunsScored(ball);
+        if(ball.isOut)
+        {
         this.currentBattingTeam.addWickets();
+        }
     }
     checkBatsmanAvailablityInList(name: string)
     {
@@ -128,13 +129,23 @@ export class Scorer
     
     printScore()
     {
+        
+        var tab = "\t";
+        console.log("India Vs England");
+        console.log("Batsman"+tab+tab+"OutStatus"+tab+"RunsScored"+tab+"BallsFaced");
         for(var i=0;i<this.currentBattingTeam.batsManList.length;i++)
         {
-            // console.log(this.currentBattingTeam.batsManList[i].playerName);
-            // console.log(this.currentBattingTeam.batsManList[i].numberOfRunsScored);
-            // console.log(this.currentBattingTeam.batsManList[0].fielder.playerName);
+            console.log(this.currentBattingTeam.batsManList[i].playerName+tab+tab+this.currentBattingTeam.batsManList[i].isOut+tab+tab+this.currentBattingTeam.batsManList[i].totalNumberOfRunsScored+tab+tab+this.currentBattingTeam.batsManList[i].numberOfBallsBatted)
         }
-        // console.log(this.currentBattingTeam.totalScore);
-        // console.log(this.currentBattingTeam.numberOfRunsScored);
+        console.log("\n");
+        console.log("Bowler"+tab+tab+"Overs"+tab+"RunsGiven"+tab+"Wickets");
+        for(var i=0;i<this.currentBowlingTeam.bowlersList.length;i++)
+        {
+            console.log(this.currentBowlingTeam.bowlersList[i].playerName+tab+tab+this.currentBowlingTeam.bowlersList[i].ballsBowled/6+tab+tab+this.currentBowlingTeam.bowlersList[i].runsGiven+tab+tab+this.currentBowlingTeam.bowlersList[i].wicketCount);
+        }
+        console.log("\n");
+        console.log("Total Score:" +tab+tab+this.currentBattingTeam.totalScore+tab+"for"+tab+this.currentBattingTeam.totalWickets );
+
+
     }
 }

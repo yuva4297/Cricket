@@ -1,0 +1,950 @@
+[
+    {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Roy',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Roy',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Roy',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Billings',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Billings',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Roy',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Billings',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+    
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Roy',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Roy',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Billings',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Roy',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Billings',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+    
+   {
+     "runsScored": 6,
+         "isOut": false,
+         "batsmanName": 'Billings',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Billings',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    
+ {
+     "runsScored": 6,
+         "isOut": false,
+         "batsmanName": 'Roy',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Roy',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Roy',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Billings',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+ 
+     {
+         "runsScored": 0,
+         "isOut": true,
+         "dismissalType": 'Caught',
+         "dismissalInfo": {
+             "fielderName": 'Bumrah',
+             "hasBatsmanCrossed": true
+         },
+         "batsmanName": 'Billings',
+         "bowlerName": 'Nehra'
+     },
+     {
+         "runsScored": 0,
+         "isOut": true,
+         "dismissalType": 'Caught',
+         "dismissalInfo": {
+             "fielderName": 'Raina',
+             "hasBatsmanCrossed": false
+         },
+         "batsmanName": 'Roy',
+         "bowlerName": 'Nehra'
+     },
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Nehra'
+ 
+    },
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+  
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Chahal'
+ 
+    },
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+  
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Chahal'
+ 
+    },
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+ 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+    
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Bumrah'
+ 
+    },
+ {
+     "runsScored": 4,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+  
+ {
+     "runsScored": 2,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Bumrah'
+ 
+    },
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+ 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Mishra'
+ 
+    },
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+  
+ {
+     "runsScored": 2,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Mishra'
+ 
+    },
+ {
+     "runsScored": 2,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+         "runsScored": 0,
+         "isOut": false,
+         "isExtra": true,
+         "extraType": 'legbyes',
+         "extraInfo": {
+             "runsOffered": 1
+         },
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Raina'
+     },   
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Raina'
+ 
+    },
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+ 
+    }, 
+  
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+ 
+    },
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Mishra'
+ 
+    },
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+  
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Mishra'
+ 
+    },
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+         "runsScored": 0,
+         "isOut": false,
+         "isExtra": true,
+         "extraType": 'legbyes',
+         "extraInfo": {
+             "runsOffered": 1
+         },
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Mishra'
+     },   
+ 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Raina'
+ 
+    }, 
+    
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+ 
+    },
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Raina'
+ 
+    }, 
+  
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+ 
+    },
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ 
+ {
+         "runsScored": 0,
+         "isOut": true,
+         "dismissalType": 'Caught',
+         "dismissalInfo": {
+             "fielderName": 'Hardik',
+             "hasBatsmanCrossed": true
+         },
+         "batsmanName": 'Morgan',
+         "bowlerName": 'Mishra'
+     },
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+         "runsScored": 0,
+         "isOut": false,
+         "isExtra": true,
+         "extraType": 'NoBall',
+         "extraInfo": {
+             "runsOffered": 1
+         },
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Mishra'
+     },
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'stokes',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ {
+         "runsScored": 0,
+         "isOut": false,
+         "isExtra": true,
+         "extraType": 'Wide',
+         "extraInfo": {
+             "runsOffered": 1
+         },
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+     },
+ {
+         "runsScored": 0,
+         "isOut": false,
+         "isExtra": true,
+         "extraType": 'Wide',
+         "extraInfo": {
+             "runsOffered": 3
+         },
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+     },
+ 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ 
+    {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Mishra'
+ 
+    }, 
+ {
+     "runsScored": 4,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ {
+     "runsScored": 6,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Stokes'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Raina'
+ 
+    }, 
+ 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+ {
+     "runsScored": 2,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+ {
+     "runsScored": 6,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Chahal'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+ {
+     "runsScored": 2,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+ {
+     "runsScored": 4,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+ {
+     "runsScored": 2,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Bumrah'
+ 
+    },
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Nehra'
+ 
+    },
+  {
+         "runsScored": 0,
+         "isOut": true,
+         "dismissalType": 'LBW',
+         "batsmanName": 'Stokes',
+         "bowlerName": 'Nehra'
+     },
+ 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Buttler',
+         "bowlerName": 'Nehra'
+ 
+    },
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Buttler',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Buttler',
+         "bowlerName": 'Bumrah'
+ 
+    },
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Buttler',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+ {
+     "runsScored": 2,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Bumrah'
+ 
+    },
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Buttler',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+ {
+     "runsScored": 2,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Nehra'
+ 
+    },
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Root',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+ {
+     "runsScored": 4,
+         "isOut": false,
+         "batsmanName": 'Buttler',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+ {
+     "runsScored": 2,
+         "isOut": false,
+         "batsmanName": 'Buttler',
+         "bowlerName": 'Nehra'
+ 
+    }, 
+ {
+     "runsScored": 6,
+         "isOut": false,
+         "batsmanName": 'Buttler',
+         "bowlerName": 'Nehra'
+ 
+    },
+ {
+         "runsScored": 0,
+         "isOut": true,
+         "dismissalType": 'Caught',
+         "dismissalInfo": {
+            "fielderName": 'Hardik',
+            "hasBatsmanCrossed": true
+        },
+         "batsmanName": 'Root',
+         "bowlerName": 'Bumrah'
+         
+     },
+ 
+ {
+     "runsScored": 1,
+         "isOut": false,
+         "batsmanName": 'Ali',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Buttler',
+         "bowlerName": 'Bumrah'
+ 
+    }, 
+ {
+         "runsScored": 0,
+         "isOut": true,
+         "dismissalType": 'Caught',
+         "dismissalInfo": {
+            "fielderName": 'Hardik',
+            "hasBatsmanCrossed": true
+        },
+         "batsmanName": 'Buttler',
+         "bowlerName": 'Bumrah'
+     },
+ {
+         "runsScored": 0,
+         "isOut": false,
+         "isExtra": true,
+         "extraType": 'byes',
+         "extraInfo": {
+             "runsOffered": 1
+         },
+         "batsmanName": 'Jordan',
+         "bowlerName": 'Bumrah'
+     },
+ 
+ 
+ {
+     "runsScored": 0,
+         "isOut": false,
+         "batsmanName": 'Ali',
+         "bowlerName": 'Bumrah'
+ 
+    }
+ ]

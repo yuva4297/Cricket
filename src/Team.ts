@@ -17,7 +17,7 @@ export class Team
     }
     addRunsScored(ball: Datatype)
     {
-        console.log(ball.runsScored);
+       
             this.numberOfRunsScored += ball.runsScored;   
         
     }

@@ -9,7 +9,6 @@ var Team = /** @class */ (function () {
         this.bowlersList = [];
     }
     Team.prototype.addRunsScored = function (ball) {
-        console.log(ball.runsScored);
         this.numberOfRunsScored += ball.runsScored;
     };
     Team.prototype.addWickets = function () {
