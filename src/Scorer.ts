@@ -144,7 +144,7 @@ export class Scorer
             console.log(this.currentBowlingTeam.bowlersList[i].playerName+tab+tab+this.currentBowlingTeam.bowlersList[i].ballsBowled/6+tab+tab+this.currentBowlingTeam.bowlersList[i].runsGiven+tab+tab+this.currentBowlingTeam.bowlersList[i].wicketCount);
         }
         console.log("\n");
-        console.log("Total Score:" +tab+tab+this.currentBattingTeam.totalScore+tab+"for"+tab+this.currentBattingTeam.totalWickets );
+        console.log("Total Score:" +tab+this.currentBattingTeam.totalScore+tab+"for"+tab+this.currentBattingTeam.totalWickets );
 
 
     }
