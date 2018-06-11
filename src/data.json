@@ -1,8 +1,9 @@
-[
+{
+    [
     {
      "runsScored": 0,
          "isOut": false,
-         "batsmanName": 'Roy',
+         "batsmanName": Roy',
          "bowlerName": 'Chahal'
  
     }, 
@@ -948,3 +949,4 @@
  
     }
  ]
+}
